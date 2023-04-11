@@ -4,13 +4,16 @@
     box-sizing: border-box;
     font-family: roboto, sans-serif;
 }
-
+body {
+    background-color: rgb(0, 0, 0);
+    /* background:  url("./images/background.jpg"); */
+}
 header {
-    background-color: #5f27cd;
+    background-color: #000000;
     padding: 16px 0;
     color: #fff;
     display:flex;
-    border-bottom: 16px solid #341f97;
+    border-bottom: 16px solid #036648;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -21,7 +24,7 @@ header button {
 }
 
 form {
-    background-color: #c8d6e5;
+    background-color: #036648;
     padding: 24px 0;
     text-align: center;
     display: none;
@@ -51,6 +54,7 @@ button {
 ul {
     display: flex;
     flex-wrap: wrap;
+    display: grid 2,3;
 }
 
 ul li {
@@ -77,6 +81,7 @@ ul li img {
 }
 
 .overlay-imagem-link a {
+    border-bottom: 2px solid red;
     color: #fff;
     text-decoration: none;
 }
