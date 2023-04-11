@@ -13,7 +13,7 @@ header {
     padding: 16px 0;
     color: #fff;
     display:flex;
-    border-bottom: 16px solid #036648;
+    border-bottom: 16px solid #6e00fd;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -22,25 +22,34 @@ header {
 header button {
     margin-left: 16px;
 }
-
+.form-image {
+    background: url("images/foto11.jpg");
+    
+}
 form {
-    background-color: #036648;
-    padding: 24px 0;
+    border-bottom: 16px solid #6e00fd;
+    /* background:linear-gradient(145deg, #0c0383, #720606); */
+    padding: 50px 0;
     text-align: center;
     display: none;
 }
 
 form h2 {
     margin-bottom: 16px;
+    font-family:sans-serif;
+    color: #f0b208;
+    text-shadow: 0 2px 10px #ff0022;
 }
 
 input, button {
+    border-radius: 10px;
     padding: 8px;
 }
 
 button {
-    background-color: #009432;
+    background-color: #bd2e2e;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
@@ -50,14 +59,19 @@ button {
 #botao-cancelar {
     background-color: red;
 }
+#botao-adicionar {
+    background-color: #036648;
+}
 
 ul {
+    /* border-bottom: 16px solid #6e00fd; */
     display: flex;
     flex-wrap: wrap;
     display: grid 2,3;
 }
 
 ul li {
+    border-bottom: 16px solid #350575;
     max-width: 25%;
     list-style: none; 
     position: relative;
@@ -67,6 +81,7 @@ ul li {
 
 ul li img {
     width: 100%;
+    
 }
 
 .overlay-imagem-link {
@@ -81,6 +96,7 @@ ul li img {
 }
 
 .overlay-imagem-link a {
+    border-bottom: 16px solid #350575;
     border-bottom: 2px solid red;
     color: #fff;
     text-decoration: none;
